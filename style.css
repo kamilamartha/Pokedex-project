@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Handjet:wght@700&display=swap');
+h1{
+    color: rgb(77, 77, 223);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+}
+body{
+    background-color: rgb(77, 77, 223);  
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+}
+.temaescuro {
+    background-color: rgb(180, 179, 179);
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    height: 650px;
+}
+.temaclaro {
+    background-color: rgb(230, 222, 173);
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    height: 650px;
+}
