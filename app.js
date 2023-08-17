@@ -1,15 +1,11 @@
 window.onload = function(){
-    let data = new Date()
-    let horas = data.getHours
-    if(horas < 18 && horas > 6){
-        let claro = document.querySelector("main")
-        claro.classList.add("temaclaro")
-        claro.classList.remove("temaescuro")}
-    else if(horas > 18 && horas < 6){
-        let escuro = document.querySelector("main")
-        escuro.classList.add("temaescuro")
-        escuro.classList.remove("temaclaro")
+    document.getElementById("botao").onclick = function(){
+        let nome1 = document.getElementById("nome").value
+        let idade1 = document.getElementById("idade").value
+        let comida1 = document.getElementById("comida").value
+      
+        let resultado = document.getElementById("sobrevoce")
+        resultado.innerHTML = (`Olá ${nome1.toUpperCase()}, você tem ${idade1} anos? Que legal!
+        Eu amo comer ${comida1} também!`)
     
-}
-
-}
+}}
