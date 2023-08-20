@@ -1,0 +1,53 @@
+h1{
+    font-size: 60px;
+    color: rgb(156, 50, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding-top: 25px;
+}
+body{
+    border-color: rgb(156, 50, 255);
+    border-style: solid;
+    height: 700px;
+    border-width: 15px;
+}
+
+main{
+    background-color: rgb(156, 50, 255);
+    margin: auto;
+    
+    height: 70%;
+    width: 80%;
+}
+#resultado{
+    display: flex;
+    justify-content: center;
+}
+#botao{
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 20%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+    font-weight: bolder;
+    box-shadow: 2px 2px black;
+}
+.labeldenumero{
+    color: white;
+    font-size: 20px;
+}
+.labeldenumero{
+    display: flex;
+    justify-content: center;
+}
+.alinhamento{
+    display: flex;
+    justify-content:space-around;
+}
