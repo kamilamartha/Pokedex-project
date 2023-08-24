@@ -1,53 +1,84 @@
-h1{
-    font-size: 60px;
-    color: rgb(156, 50, 255);
-    text-shadow: 1px 1px black;
-    text-align: center;
-}
-h2{
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px black;
-    text-align: center;
-    padding-top: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    border-color: rgb(156, 50, 255);
-    border-style: solid;
-    height: 700px;
-    border-width: 15px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(122, 122, 243), white);
+    min-height: 100vh;
 }
-
 main{
-    background-color: rgb(156, 50, 255);
-    margin: auto;
     
-    height: 70%;
-    width: 80%;
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
 }
-#resultado{
-    display: flex;
-    justify-content: center;
+.pokedex{
+    width: 100%;
+max-width: 425px;
+
 }
-#botao{
-    width: 200px;
-    margin-left: 40%;
-    margin-top: 20%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    
+.pokemonimagem{
+    position: absolute;
+    bottom: 52%;
+    left: 32%;
+    height: 17%;
+}
+.conteudopokemon{
+    position: absolute;
     font-weight: bolder;
-    box-shadow: 2px 2px black;
+    color: #aaa;
+    top: 54%;
+    left: 28%;
+    font-size: clamp(8px, 5vm, 25px)
 }
-.labeldenumero{
+.nomepokemon{
+    color: rgb(62, 57, 57);
+    text-transform: capitalize;
+}
+.form{
+    position: absolute;
+    width: 65%;
+    top: 64%;
+    left: 14%;
+}
+.buscador{
+    width: 100%;
+    padding: 5%;
+    outline: none;
+    border: 2px solid rgb(62, 57, 57);
+    color: rgb(62, 57, 57);
+    font-size: clamp(8px, 5vm, 1rem);
+    box-shadow: -2px -2px rgb(117, 109, 109), -4px -4px black;
+    font-family: 'Merriweather', serif;
+
+}
+.botaonext{
+    position: absolute;
+    left: 52%;
+    top: 180%;
+    outline: none;
+    box-shadow: -2px -2px black;
+    width: 140px;
+    padding: 5px;
+    box-shadow: -2px -2px rgb(117, 109, 109), -4px -4px black;
     color: white;
-    font-size: 20px;
+    background-color: rgb(62, 57, 57);
+    font-family: 'Merriweather', serif;
 }
-.labeldenumero{
-    display: flex;
-    justify-content: center;
-}
-.alinhamento{
-    display: flex;
-    justify-content:space-around;
+.botaoanterior{
+    position: absolute;
+    right: 52%;
+    top: 180%;
+    outline: none;
+    box-shadow: -2px -2px rgb(117, 109, 109), -4px -4px black;
+    width: 140px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(62, 57, 57);
+    font-family: 'Merriweather', serif;
 }
